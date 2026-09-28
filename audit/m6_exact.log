@@ -1,0 +1,6 @@
+
+[standard error]
+m=6, states=199, edges=12736, starting-row representatives=34
+computed all representative rows through n=25
+CERTIFICATE: A^(29) = A^(11) + 48; all 6766 representative-row entries checked; by symmetry all 39601 matrix entries follow.
+exact lengths 3..1000; directly computed through 29; elapsed_seconds=0.0141723

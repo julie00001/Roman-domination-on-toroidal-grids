@@ -1,0 +1,68 @@
+PRIVATE REVIEWER RUN: no data are uploaded or published.
+Started: 2026-09-28T09:42:18.4644913+08:00
+Mode: FULL: source build, complete recomputation, table/manuscript comparisons
+Outputs: <RUN>
+Compiler: MSVC C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\cl.exe
+Python: 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]
+BUILD src/roman_torus_exact.cpp
+BUILD src/verify_exact_results.cpp
+BUILD src/verify_manuscript.cpp
+BUILD src/verify_phase_barrier.cpp
+BUILD src/bridge_all_lengths.cpp
+BUILD src/check_type4_12_8.cpp
+PASS source build: all six programs compiled locally.
+RUN roman_torus_exact -> logs/m3_exact.log
+RUN roman_torus_exact -> logs/m4_exact.log
+RUN roman_torus_exact -> logs/m5_exact.log
+RUN roman_torus_exact -> logs/m6_exact.log
+RUN roman_torus_exact -> logs/m7_exact.log
+RUN roman_torus_exact -> logs/m8_exact.log
+RUN roman_torus_exact -> logs/m9_exact.log
+RUN roman_torus_exact -> logs/m10_exact.log
+RUN roman_torus_exact -> logs/witness_8_31.log
+RUN roman_torus_exact -> logs/witness_9_17.log
+RUN roman_torus_exact -> logs/witness_10_19.log
+RUN roman_torus_exact -> logs/m7_full_check.log
+RUN roman_torus_exact -> logs/m8_full_check.log
+RUN verify_exact_results -> logs/verify_exact_results.log
+RUN verify_manuscript -> logs/verify_manuscript.log
+RUN verify_phase_barrier -> logs/verify_phase_barrier.log
+RUN check_type4_12_8 -> logs/check_type4_12_8.log
+RUN bridge_all_lengths -> logs/bridge_all_lengths.log
+PASS complete-map bridge certificate: m=12, budget=2; even and odd endpoints.
+PASS m3_exact.csv: 998 rows; all six CSV fields agree.
+PASS m3_exact.csv: integer lower bounds and excess fields independently recomputed.
+PASS m4_exact.csv: 998 rows; all six CSV fields agree.
+PASS m4_exact.csv: integer lower bounds and excess fields independently recomputed.
+PASS m5_exact.csv: 998 rows; all six CSV fields agree.
+PASS m5_exact.csv: integer lower bounds and excess fields independently recomputed.
+PASS m6_exact.csv: 998 rows; all six CSV fields agree.
+PASS m6_exact.csv: integer lower bounds and excess fields independently recomputed.
+PASS m7_exact.csv: 998 rows; all six CSV fields agree.
+PASS m7_exact.csv: integer lower bounds and excess fields independently recomputed.
+PASS m8_exact.csv: 998 rows; all six CSV fields agree.
+PASS m8_exact.csv: integer lower bounds and excess fields independently recomputed.
+PASS m9_exact.csv: 998 rows; all six CSV fields agree.
+PASS m9_exact.csv: integer lower bounds and excess fields independently recomputed.
+PASS m10_exact.csv: 998 rows; all six CSV fields agree.
+PASS m10_exact.csv: integer lower bounds and excess fields independently recomputed.
+PASS m7_full_check.csv: 78 rows; all six CSV fields agree.
+PASS m7_full_check.csv: integer lower bounds and excess fields independently recomputed.
+PASS width 7: every full-state value agrees with its symmetry-reduced value.
+PASS m8_full_check.csv: 48 rows; all six CSV fields agree.
+PASS m8_full_check.csv: integer lower bounds and excess fields independently recomputed.
+PASS width 8: every full-state value agrees with its symmetry-reduced value.
+PASS witness_7_23.txt: labels and metadata match; coverage and weight independently audited.
+PASS witness_8_31.txt: labels and metadata match; coverage and weight independently audited.
+PASS m8_witness_run.csv: 29 rows; all six CSV fields agree.
+PASS witness_9_17.txt: labels and metadata match; coverage and weight independently audited.
+PASS m9_witness_run.csv: 15 rows; all six CSV fields agree.
+PASS witness_10_19.txt: labels and metadata match; coverage and weight independently audited.
+PASS m10_witness_run.csv: 17 rows; all six CSV fields agree.
+RUN Appendix D generation and cell-by-cell comparison against the current manuscript.
+PASS Appendix D: 1,246 manuscript cells, nine literature-summary rows, and all four reference table files agree.
+LIMITS: seven tiny graphs are independently optimized by exhaustive center-subset enumeration; 7,984 rows are recomputed by transfer matrices with checked recurrence certificates.
+LIMITS: bridge completeness concerns the fixed-width positive-to-positive bridge problem; the phase barrier and concentrated-profile check retain their stated hypotheses.
+Elapsed seconds: 121.53
+Finished: 2026-09-28T09:44:15.9195555+08:00
+FULL SUCCESS: all source builds, 7,984 recomputed exact rows, 126 direct full-state rows, four witnesses, finite mathematical checks, bridge certificate, and Appendix D comparisons passed. Exit code 0.

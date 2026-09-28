@@ -1,0 +1,14 @@
+PASS all-center-subsets 3x3 gamma_R=5 subsets=512
+PASS all-center-subsets 3x4 gamma_R=6 subsets=4096
+PASS all-center-subsets 3x5 gamma_R=8 subsets=32768
+PASS all-center-subsets 4x4 gamma_R=8 subsets=65536
+PASS all-center-subsets 4x5 gamma_R=10 subsets=1048576
+PASS all-center-subsets 5x5 gamma_R=10 subsets=33554432
+PASS all-center-subsets 3x7 gamma_R=11 subsets=2097152
+PASS 64 transposition comparisons, 499 even m=7 values, 78 full-state/reduced-state comparisons
+PASS witness 7x23 weight=70
+PASS witness 8x31 weight=110
+PASS witness 9x17 weight=68
+PASS witness 10x19 weight=80
+PASS two-turn construction: 3432 cases, k=1..12, a,b=1..80; exceptional 7x6 witness passes
+ALL AUDITS PASSED; exhaustive subsets=36803072

@@ -1,0 +1,7 @@
+OS: Microsoft Windows NT 10.0.19045.0
+64-bit process: True
+PowerShell: 5.1.19041.6456
+Compiler: C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\cl.exe
+Python: <PYTHON>/python.exe
+Python version: 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]
+MSVC tools version: 14.51.36231

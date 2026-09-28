@@ -1,0 +1,6 @@
+
+[standard error]
+m=8, states=1155, edges=295680, starting-row representatives=1155
+computed all representative rows through n=25
+computed all representative rows through n=50
+exact lengths 3..50; directly computed through 50; elapsed_seconds=10.9258

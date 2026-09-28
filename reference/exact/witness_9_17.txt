@@ -1,0 +1,17 @@
+# Verified optimum Roman dominating function
+m 9
+n 17
+weight 68
+# center masks, columns j=0,...,n-1; bit i is row i
+centers 1 136 34 264 66 16 132 33 8 66 272 4 33 136 2 272 68
+# label grid: m rows, n columns; both coordinates are cyclic
+20000102000020000
+00202000020000200
+00000020000200002
+02020000200002000
+10000200002000020
+10200002000020100
+00002000020100102
+02000020100102000
+00020100102000020
+# Every zero vertex has a neighbor labelled 2; weight audited.

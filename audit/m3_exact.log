@@ -1,0 +1,5 @@
+
+[standard error]
+m=3, states=15, edges=120, starting-row representatives=7
+CERTIFICATE: A^(14) = A^(8) + 9; all 105 representative-row entries checked; by symmetry all 225 matrix entries follow.
+exact lengths 3..1000; directly computed through 14; elapsed_seconds=0.0021317

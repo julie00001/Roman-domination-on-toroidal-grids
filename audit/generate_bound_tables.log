@@ -1,0 +1,35 @@
+{
+  "parameters": 1246,
+  "m": [
+    3,
+    30
+  ],
+  "n": [
+    3,
+    60
+  ],
+  "constraint": "m <= n",
+  "counts": {
+    "exact_theoretical": 486,
+    "exact_computational": 128,
+    "interval": 632
+  },
+  "interval_gap_max": 17,
+  "all_overlapping_orientations_agree": true,
+  "all_exact_inputs_within_theoretical_bounds": true,
+  "literature_improvements": 9,
+  "manuscript_check": {
+    "table_numbers": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "finite_cells_checked": 1246,
+    "literature_rows_checked": 9,
+    "all_values_and_markers_match": true
+  },
+  "external_sources_note": "Literature formulas and OEIS snapshot are fixed inputs; the reproduction does not independently prove those external results."
+}
+PASS: Appendix D Tables 4--8 match the current R3 source. Reference table comparison passed.

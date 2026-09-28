@@ -1,0 +1,15 @@
+HALF P={4,9} Y={1,6} X={3,8,10,11}
+HALF P={4,9} Y={6,11} X={1,2,3,8}
+HALF P={5,9} Y={3,11} X={1,6,7,8}
+HALF P={4,10} Y={1,6} X={3,8,9,11}
+HALF P={4,10} Y={1,8} X={3,5,6,11}
+HALF P={5,10} Y={1,8} X={3,4,6,11}
+HALF P={5,10} Y={3,8} X={0,1,6,11}
+OUTER d=1 L={5,10}
+OUTER d=6 L={4,10}
+OUTER d=11 L={4,9}
+Separated light masks: 42
+Left half-clusters: 7
+Regular outer triples: 3
+Matching central masks: 0
+Valid type-4 configurations after normalization: 0

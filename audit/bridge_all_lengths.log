@@ -1,0 +1,99 @@
+All-length finite bridge search: m=12, budget=2, maximum depth=16. All column counts permitted by the global energy bounds included.
+depth 1: 332 states
+depth 2: 8999 states [residue=0, E=0, n=24] [residue=10, E=2, n=10] [residue=14, E=2, n=14]
+depth 3: 6430 states [residue=5, E=1, n=5] [residue=19, E=1, n=19]
+depth 4: 9950 states
+depth 5: 6557 states
+depth 6: 10180 states
+depth 7: 6559 states
+depth 8: 10182 states
+depth 9: 6561 states
+depth 10: 10184 states
+depth 11: 6563 states
+depth 12: 10186 states
+depth 13: 6565 states
+depth 14: 10187 states
+depth 15: 6566 states
+depth 16: 10187 states
+CERTIFICATE: F_16(shift(pair,1)) = F_14(pair), all 10187 reachable states and costs checked.
+Translation-equivariance proves all later layers by induction.
+The listed residues exhaust budget-at-most-2 positive-to-positive bridges at this fixed width (all length parities).
+WITNESS residue=0 m=12 n=24 weight=120 E=0
+  column 0 centers: 0 2 7; ones:
+  column 1 centers: 5 10; ones:
+  column 2 centers: 1 3 8; ones:
+  column 3 centers: 6 11; ones:
+  column 4 centers: 2 4 9; ones:
+  column 5 centers: 0 7; ones:
+  column 6 centers: 3 5 10; ones:
+  column 7 centers: 1 8; ones:
+  column 8 centers: 4 6 11; ones:
+  column 9 centers: 2 9; ones:
+  column 10 centers: 0 5 7; ones:
+  column 11 centers: 3 10; ones:
+  column 12 centers: 1 6 8; ones:
+  column 13 centers: 4 11; ones:
+  column 14 centers: 2 7 9; ones:
+  column 15 centers: 0 5; ones:
+  column 16 centers: 3 8 10; ones:
+  column 17 centers: 1 6; ones:
+  column 18 centers: 4 9 11; ones:
+  column 19 centers: 2 7; ones:
+  column 20 centers: 0 5 10; ones:
+  column 21 centers: 3 8; ones:
+  column 22 centers: 1 6 11; ones:
+  column 23 centers: 4 9; ones:
+WITNESS residue=5 m=12 n=5 weight=26 E=1
+  column 0 centers: 0 2 7; ones:
+  column 1 centers: 5 10; ones: 1
+  column 2 centers: 3 8; ones: 0
+  column 3 centers: 1 6 11; ones:
+  column 4 centers: 4 9; ones:
+WITNESS residue=10 m=12 n=10 weight=52 E=2
+  column 0 centers: 0 2 7; ones:
+  column 1 centers: 5 10; ones: 1
+  column 2 centers: 3 8 10; ones: 0
+  column 3 centers: 1 6; ones:
+  column 4 centers: 4 9 11; ones:
+  column 5 centers: 2 7; ones:
+  column 6 centers: 0 5 10; ones:
+  column 7 centers: 3 8; ones:
+  column 8 centers: 1 6 11; ones:
+  column 9 centers: 4 9; ones:
+WITNESS residue=14 m=12 n=14 weight=72 E=2
+  column 0 centers: 0 2 7; ones:
+  column 1 centers: 5 10; ones: 3
+  column 2 centers: 1 6 8; ones: 3
+  column 3 centers: 4 11; ones:
+  column 4 centers: 2 7 9; ones:
+  column 5 centers: 0 5; ones:
+  column 6 centers: 3 8 10; ones:
+  column 7 centers: 1 6; ones:
+  column 8 centers: 4 9 11; ones:
+  column 9 centers: 2 7; ones:
+  column 10 centers: 0 5 10; ones:
+  column 11 centers: 3 8; ones:
+  column 12 centers: 1 6 11; ones:
+  column 13 centers: 4 9; ones:
+WITNESS residue=19 m=12 n=19 weight=96 E=1
+  column 0 centers: 0 2 7; ones:
+  column 1 centers: 5 10; ones: 3
+  column 2 centers: 1 8; ones: 3
+  column 3 centers: 4 6 11; ones:
+  column 4 centers: 2 9; ones:
+  column 5 centers: 0 5 7; ones:
+  column 6 centers: 3 10; ones:
+  column 7 centers: 1 6 8; ones:
+  column 8 centers: 4 11; ones:
+  column 9 centers: 2 7 9; ones:
+  column 10 centers: 0 5; ones:
+  column 11 centers: 3 8 10; ones:
+  column 12 centers: 1 6; ones:
+  column 13 centers: 4 9 11; ones:
+  column 14 centers: 2 7; ones:
+  column 15 centers: 0 5 10; ones:
+  column 16 centers: 3 8; ones:
+  column 17 centers: 1 6 11; ones:
+  column 18 centers: 4 9; ones:
+All displayed witnesses verified directly. Without a CERTIFICATE, missing residues are not excluded.
+Even a bridge certificate alone does not exclude tori containing no standard adjacent pair.

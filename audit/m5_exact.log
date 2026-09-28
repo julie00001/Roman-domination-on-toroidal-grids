@@ -1,0 +1,5 @@
+
+[standard error]
+m=5, states=83, edges=2656, starting-row representatives=18
+CERTIFICATE: A^(13) = A^(8) + 10; all 1494 representative-row entries checked; by symmetry all 6889 matrix entries follow.
+exact lengths 3..1000; directly computed through 13; elapsed_seconds=0.0033441

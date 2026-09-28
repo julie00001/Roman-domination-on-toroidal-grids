@@ -1,0 +1,19 @@
+Roman torus manuscript checks (C++14, exact integer arithmetic)
+r=1: A^(7+1) = A^7 + 2; all 256 entries checked exactly
+  initial traces: (3,6) (4,8) (5,10) (6,12) (7,14)
+r=2: A^(6+2) = A^6 + 3; all 256 entries checked exactly
+  initial traces: (3,7) (4,6) (5,10) (6,9) (7,13)
+r=3: A^(5+2) = A^5 + 2; all 256 entries checked exactly
+  initial traces: (3,8) (4,4) (5,10) (6,6)
+r=4: A^(5+3) = A^5 + 4; all 256 entries checked exactly
+  initial traces: (3,4) (4,7) (5,10) (6,8) (7,11)
+m=3, n through 300: gaps in gamma = {0}
+m=4, n through 300: gaps in gamma = {0}
+m=5, n through 300: gaps in gamma = {0}
+m=6, n through 300: gaps in gamma = {0, 1, 2}
+Uniform constructions: all widths 3 through 80 checked vertex by vertex.
+Seam averaging: 1,444 tori checked.
+Phase repairs: 1,620 tori checked vertex by vertex.
+Energy decomposition: 87,360 exhaustive small vectors and 2,000 large-amplitude vectors checked.
+Moving-gap replacements: 2,220 tori checked, k=1,...,15.
+PASS: all checks completed. Finite tests do not replace the manuscript proofs.

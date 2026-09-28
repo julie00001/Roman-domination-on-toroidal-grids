@@ -1,0 +1,6 @@
+
+[standard error]
+m=9, states=2787, edges=1426944, starting-row representatives=207
+computed all representative rows through n=25
+CERTIFICATE: A^(33) = A^(24) + 36; all 576909 representative-row entries checked; by symmetry all 7767369 matrix entries follow.
+exact lengths 3..1000; directly computed through 33; elapsed_seconds=6.36963

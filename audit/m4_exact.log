@@ -1,0 +1,5 @@
+
+[standard error]
+m=4, states=35, edges=560, starting-row representatives=12
+CERTIFICATE: A^(10) = A^(8) + 4; all 420 representative-row entries checked; by symmetry all 1225 matrix entries follow.
+exact lengths 3..1000; directly computed through 10; elapsed_seconds=0.0021208

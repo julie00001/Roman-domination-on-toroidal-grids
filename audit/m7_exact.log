@@ -1,0 +1,6 @@
+
+[standard error]
+m=7, states=479, edges=61312, starting-row representatives=56
+computed all representative rows through n=25
+CERTIFICATE: A^(28) = A^(14) + 42; all 26824 representative-row entries checked; by symmetry all 229441 matrix entries follow.
+exact lengths 3..1000; directly computed through 28; elapsed_seconds=0.0816793

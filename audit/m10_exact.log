@@ -1,0 +1,5 @@
+
+[standard error]
+m=10, states=6727, edges=6888448, starting-row representatives=427
+CERTIFICATE: A^(19) = A^(14) + 20; all 2872429 representative-row entries checked; by symmetry all 45252529 matrix entries follow.
+exact lengths 3..1000; directly computed through 19; elapsed_seconds=36.905
